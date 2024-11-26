@@ -23,7 +23,7 @@
       "matchStrings": [
         "\\|\\s*Anvil\\s*\\|\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)\\s*\\|"
       ],
-      "datasourceTemplate": "maven",
+      "datasourceTemplate": "gradle",
       "depNameTemplate": "com.squareup.anvil:anvil",
       "versioningTemplate": "semver"
     },
@@ -68,7 +68,7 @@
       "matchStrings": [
         "\\|\\s*Roborazzi\\s*\\|\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)\\s*\\|"
       ],
-      "datasourceTemplate": "maven",
+      "datasourceTemplate": "gradle",
       "depNameTemplate": "com.github.takahirom:roborazzi",
       "versioningTemplate": "semver"
     },
