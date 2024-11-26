@@ -28,7 +28,7 @@
 
 | Plugins    | Version |
 |------------|---------|
-| Sqldelight | 1.3.5   |
+| Sqldelight | 1.5.5   |
 | Room       | 2.6.1   |
 
 ### Static tools
