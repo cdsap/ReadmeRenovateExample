@@ -5,7 +5,7 @@
       "matchStrings": [
         "\\|\\s*Android Gradle Plugin\\s*\\|\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)\\s*\\|"
       ],
-      "datasourceTemplate": "maven",
+      "datasourceTemplate": "https://maven.google.com/",
       "depNameTemplate": "com.android.tools.build:gradle",
       "versioningTemplate": "semver"
     },
@@ -23,8 +23,8 @@
       "matchStrings": [
         "\\|\\s*Anvil\\s*\\|\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)\\s*\\|"
       ],
-      "datasourceTemplate": "maven",
-      "depNameTemplate": "com.squareup.anvil:anvil",
+      "datasourceTemplate": "gradle",
+      "depNameTemplate": "com.squareup.anvil:gradle-plugin",
       "versioningTemplate": "semver"
     },
     {
@@ -95,7 +95,7 @@
       "matchStrings": [
         "\\|\\s*Ktlin-gradle\\s*\\|\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)\\s*\\|"
       ],
-      "datasourceTemplate": "gradle",
+      "datasourceTemplate": "maven",
       "depNameTemplate": "org.jlleitschuh.gradle:ktlint-gradle",
       "versioningTemplate": "semver"
     },
