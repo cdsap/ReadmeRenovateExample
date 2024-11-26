@@ -5,7 +5,7 @@
       "matchStrings": [
         "\\|\\s*Android Gradle Plugin\\s*\\|\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)\\s*\\|"
       ],
-      "datasourceTemplate": "gradle",
+      "datasourceTemplate": "maven",
       "depNameTemplate": "com.android.tools.build:gradle",
       "versioningTemplate": "semver"
     },
@@ -14,7 +14,7 @@
       "matchStrings": [
         "\\|\\s*Kotlin Gradle Plugin\\s*\\|\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)\\s*\\|"
       ],
-      "datasourceTemplate": "gradle",
+      "datasourceTemplate": "maven",
       "depNameTemplate": "org.jetbrains.kotlin:kotlin-gradle-plugin",
       "versioningTemplate": "semver"
     },
@@ -23,7 +23,7 @@
       "matchStrings": [
         "\\|\\s*Anvil\\s*\\|\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)\\s*\\|"
       ],
-      "datasourceTemplate": "gradle",
+      "datasourceTemplate": "maven",
       "depNameTemplate": "com.squareup.anvil:anvil",
       "versioningTemplate": "semver"
     },
@@ -68,7 +68,7 @@
       "matchStrings": [
         "\\|\\s*Roborazzi\\s*\\|\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)\\s*\\|"
       ],
-      "datasourceTemplate": "gradle",
+      "datasourceTemplate": "maven",
       "depNameTemplate": "com.github.takahirom:roborazzi",
       "versioningTemplate": "semver"
     },
