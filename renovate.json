@@ -69,7 +69,7 @@
         "\\|\\s*Roborazzi\\s*\\|\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)\\s*\\|"
       ],
       "datasourceTemplate": "maven",
-      "depNameTemplate": "com.github.takahirom:roborazzi",
+      "depNameTemplate": "io.github.takahirom.roborazzi:roborazzi-gradle-plugin",
       "versioningTemplate": "semver"
     },
     {
@@ -95,8 +95,8 @@
       "matchStrings": [
         "\\|\\s*Ktlin-gradle\\s*\\|\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)\\s*\\|"
       ],
-      "datasourceTemplate": "maven",
-      "depNameTemplate": "com.pinterest:ktlint",
+      "datasourceTemplate": "gradle",
+      "depNameTemplate": "org.jlleitschuh.gradle:ktlint-gradle",
       "versioningTemplate": "semver"
     },
     {
