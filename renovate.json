@@ -1,0 +1,121 @@
+{
+  "regexManagers": [
+    {
+      "fileMatch": ["README.md"],
+      "matchStrings": [
+        "\\|\\s*Android Gradle Plugin\\s*\\|\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)\\s*\\|"
+      ],
+      "datasourceTemplate": "gradle",
+      "depNameTemplate": "com.android.tools.build:gradle",
+      "versioningTemplate": "semver"
+    },
+    {
+      "fileMatch": ["README.md"],
+      "matchStrings": [
+        "\\|\\s*Kotlin Gradle Plugin\\s*\\|\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)\\s*\\|"
+      ],
+      "datasourceTemplate": "gradle",
+      "depNameTemplate": "org.jetbrains.kotlin:kotlin-gradle-plugin",
+      "versioningTemplate": "semver"
+    },
+    {
+      "fileMatch": ["README.md"],
+      "matchStrings": [
+        "\\|\\s*Anvil\\s*\\|\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)\\s*\\|"
+      ],
+      "datasourceTemplate": "maven",
+      "depNameTemplate": "com.squareup.anvil:anvil",
+      "versioningTemplate": "semver"
+    },
+    {
+      "fileMatch": ["README.md"],
+      "matchStrings": [
+        "\\|\\s*Hilt\\s*\\|\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)\\s*\\|"
+      ],
+      "datasourceTemplate": "maven",
+      "depNameTemplate": "com.google.dagger:hilt-android",
+      "versioningTemplate": "semver"
+    },
+    {
+      "fileMatch": ["README.md"],
+      "matchStrings": [
+        "\\|\\s*Ksp\\s*\\|\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+-\\d+\\.\\d+\\.\\d+)\\s*\\|"
+      ],
+      "datasourceTemplate": "maven",
+      "depNameTemplate": "com.google.devtools.ksp:symbol-processing-gradle-plugin",
+      "versioningTemplate": "semver"
+    },
+    {
+      "fileMatch": ["README.md"],
+      "matchStrings": [
+        "\\|\\s*Paparazzi\\s*\\|\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)\\s*\\|"
+      ],
+      "datasourceTemplate": "maven",
+      "depNameTemplate": "app.cash.paparazzi:paparazzi",
+      "versioningTemplate": "semver"
+    },
+    {
+      "fileMatch": ["README.md"],
+      "matchStrings": [
+        "\\|\\s*Robolectric\\s*\\|\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)\\s*\\|"
+      ],
+      "datasourceTemplate": "maven",
+      "depNameTemplate": "org.robolectric:robolectric",
+      "versioningTemplate": "semver"
+    },
+    {
+      "fileMatch": ["README.md"],
+      "matchStrings": [
+        "\\|\\s*Roborazzi\\s*\\|\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)\\s*\\|"
+      ],
+      "datasourceTemplate": "maven",
+      "depNameTemplate": "com.github.takahirom:roborazzi",
+      "versioningTemplate": "semver"
+    },
+    {
+      "fileMatch": ["README.md"],
+      "matchStrings": [
+        "\\|\\s*Sqldelight\\s*\\|\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)\\s*\\|"
+      ],
+      "datasourceTemplate": "maven",
+      "depNameTemplate": "com.squareup.sqldelight:gradle-plugin",
+      "versioningTemplate": "semver"
+    },
+    {
+      "fileMatch": ["README.md"],
+      "matchStrings": [
+        "\\|\\s*Room\\s*\\|\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)\\s*\\|"
+      ],
+      "datasourceTemplate": "maven",
+      "depNameTemplate": "androidx.room:room-runtime",
+      "versioningTemplate": "semver"
+    },
+    {
+      "fileMatch": ["README.md"],
+      "matchStrings": [
+        "\\|\\s*Ktlin-gradle\\s*\\|\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)\\s*\\|"
+      ],
+      "datasourceTemplate": "maven",
+      "depNameTemplate": "com.pinterest:ktlint",
+      "versioningTemplate": "semver"
+    },
+    {
+      "fileMatch": ["README.md"],
+      "matchStrings": [
+        "\\|\\s*Detekt\\s*\\|\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)\\s*\\|"
+      ],
+      "datasourceTemplate": "maven",
+      "depNameTemplate": "io.gitlab.arturbosch.detekt:detekt-gradle-plugin",
+      "versioningTemplate": "semver"
+    },
+    {
+      "fileMatch": ["README.md"],
+      "matchStrings": [
+        "\\|\\s*Spotless\\s*\\|\\s*(?<currentValue>\\d+\\.\\d+\\.\\d+)\\s*\\|"
+      ],
+      "datasourceTemplate": "maven",
+      "depNameTemplate": "com.diffplug.spotless:spotless-plugin-gradle",
+      "versioningTemplate": "semver"
+    }
+  ]
+}
