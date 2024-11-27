@@ -20,7 +20,7 @@
 
 | Plugins     | Version |
 |-------------|---------|
-| Paparazzi   | 1.3.1   |
+| Paparazzi   | 1.3.5   |
 | Robolectric | 4.14.o  |
 | Roborazzi   | 1.33.0  |
 
