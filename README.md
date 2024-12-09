@@ -22,7 +22,7 @@
 |-------------|---------|
 | Paparazzi   | 1.3.1   |
 | Robolectric | 4.14.o  |
-| Roborazzi   | 1.33.0  |
+| Roborazzi   | 1.36.0  |
 
 ### Database
 
