@@ -35,6 +35,6 @@
 
 | Plugins      | Version |
 |--------------|---------|
-| Ktlin-gradle | 12.3.0  |
+| Ktlin-gradle | 14.0.1  |
 | Detekt       | 1.23.8  |
 | Spotless     | 8.2.1  |
