@@ -1,15 +1,28 @@
 {
-   "packageRules": [
+  "automerge": true,
+  "automergeType": "pr",
+  "automergeStrategy": "merge-commit",
+  "ignoreTests": true,
+  "packageRules": [
     {
-        "matchDatasources": ["maven"],
-        "registryUrls": [
-            "https://dl.google.com/dl/android/maven2/",
-            "https://plugins.gradle.org/m2/",
-            "https://repo1.maven.org/maven2/"
-        ],
-        "automerge": true,
-        "automergeType": "pr",
-        "automergeStrategy": "merge-commit"
+      "matchDatasources": ["maven"],
+      "registryUrls": [
+        "https://dl.google.com/dl/android/maven2/",
+        "https://plugins.gradle.org/m2/",
+        "https://repo1.maven.org/maven2/"
+      ]
+    },
+    {
+      "matchDatasources": ["gradle"],
+      "automerge": true,
+      "automergeType": "pr",
+      "automergeStrategy": "merge-commit"
+    },
+    {
+      "matchManagers": ["regex"],
+      "automerge": true,
+      "automergeType": "pr",
+      "automergeStrategy": "merge-commit"
     }
   ],
   "regexManagers": [
