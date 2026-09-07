@@ -6,7 +6,7 @@
 | Plugins               | Version |
 |-----------------------|---------|
 | Android Gradle Plugin | 8.6.0   |
-| Kotlin Gradle Plugin  | 2.4.10  |
+| Kotlin Gradle Plugin  | 2.4.20  |
 
 ### Dependency Injection
 
